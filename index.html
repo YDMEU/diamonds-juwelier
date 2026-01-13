@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juweliergeschäft für maßgeschneiderte Schmuckstücke, Reparaturen und Wartung">
+    <title>Diamonds - Juweliergeschäft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">💎 Diamonds</div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home">Startseite</a></li>
+                        <li><a href="#services">Leistungen</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Maßgeschneiderte Juwelen</h1>
+                <p class="hero-subtitle">Kunstvolle Schmuckstücke nach Ihren Wünschen</p>
+                <p class="hero-description">Wir kreieren einzigartige Schmuckstücke, reparieren Ihre wertvollen Erbstücke und sorgen für deren perfekte Pflege.</p>
+                <a href="#contact" class="btn btn-primary">Kontakt aufnehmen</a>
+            </div>
+            <div class="hero-decoration">
+                <div class="diamond-shape"></div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Unsere Leistungen</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">✨</div>
+                        <h3>Maßgeschneiderte Schmuckstücke</h3>
+                        <p>Wir fertigen einzigartige Schmuckstücke nach Ihren individuellen Vorstellungen. Von Verlobungsringen bis hin zu Halsketten – wir verwirklichen Ihre Träume.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Reparaturen</h3>
+                        <p>Ihre wertvollen Schmuckstücke verdienen die beste Pflege. Wir reparieren beschädigte Ketten, Ringe, Armbänder und andere Juwelen mit höchster Präzision.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💍</div>
+                        <h3>Wartung & Pflege</h3>
+                        <p>Regelmäßige Wartung hält Ihren Schmuck in perfektem Zustand. Wir bieten Reinigung, Polierung und Inspektion Ihrer wertvollen Stücke an.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Über uns</h2>
+                        <p>Mit jahrelanger Erfahrung und Leidenschaft für die Juwelierskunst bieten wir Ihnen erstklassige Dienstleistungen im Bereich Schmuck. Unser Team aus erfahrenen Handwerkern steht Ihnen zur Verfügung, um Ihre Visionen zu verwirklichen.</p>
+                        <p>Wir kombinieren traditionelle Handwerkskunst mit modernen Techniken, um Ihnen die bestmögliche Qualität zu garantieren. Jedes Stück wird mit Sorgfalt und Aufmerksamkeit für Details gefertigt.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <strong>Jahrelange Erfahrung</strong>
+                            <p>Tradition und Expertise</p>
+                        </div>
+                        <div class="feature">
+                            <strong>Individuelle Beratung</strong>
+                            <p>Persönliche Betreuung</p>
+                        </div>
+                        <div class="feature">
+                            <strong>Höchste Qualität</strong>
+                            <p>Premium Materialien</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Besuchen Sie uns</h3>
+                        <div class="contact-item">
+                            <strong>Adresse:</strong>
+                            <p>Gaillardstr. 4<br>13187 Berlin</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Telefon:</strong>
+                            <p>01520796396</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>E-Mail:</strong>
+                            <p>info@diamonds-juwelier.pro</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Öffnungszeiten:</strong>
+                            <p>Montag - Freitag: 10:00 - 18:00 Uhr<br>Samstag: 10:00 - 16:00 Uhr<br>Sonntag: Geschlossen</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Nachricht senden</h3>
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Absenden</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Diamonds Juweliergeschäft. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
