@@ -328,6 +328,48 @@ body {
     object-fit: cover;
 }
 
+.workshop-section {
+    margin-top: 4rem;
+    padding: 3rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.workshop-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.workshop-text h3 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+.workshop-text p {
+    color: var(--text-light);
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.workshop-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshop-photo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
 .about-features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -522,6 +564,23 @@ body {
 
     .about-features {
         grid-template-columns: 1fr;
+    }
+
+    .workshop-content {
+        grid-template-columns: 1fr;
+    }
+
+    .workshop-image {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .workshop-photo {
+        max-width: 100%;
+    }
+
+    .workshop-text h3 {
+        font-size: 1.5rem;
     }
 
     .contact-content {
