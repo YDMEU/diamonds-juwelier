@@ -566,8 +566,41 @@ body {
 .footer {
     background: var(--secondary-color);
     color: var(--white);
-    text-align: center;
     padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer-copyright {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-legal {
+    text-align: right;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.footer-legal p {
+    margin: 0.25rem 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-legal {
+        text-align: center;
+    }
 }
 
 /* Animations */
